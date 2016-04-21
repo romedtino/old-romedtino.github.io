@@ -7,27 +7,69 @@
 </head>
 
 <style>
-  
-  .headerSize
-  {
+  .headerSize {
     height: 150px;
   }
   
-  span.centerStage
-  {
+  .centerStage {
     margin: auto auto;
   }
   
+  .demo-card-wide.mdl-card {
+    width: 512px;
+  }
+  
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../images/header-bg.png') center / cover;
+  }
+  
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
 </style>
 
 <body>
   <div class="mdl-layout mdl-js-layout">
+
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row headerSize">
         <!-- Title -->
         <span class="mdl-layout-title centerStage">Jerome Tolentino</span>
       </div>
     </header>
+
+    <div class="mdl-grid">
+      <!-- First card -->
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+        </div>
+        <div class="mdl-card__supporting-text">
+          Behavioral Timer - A timer made for analysis
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Play Store
+    </a>
+        </div>
+      </div>
+
+      <!-- Second card -->
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title">
+        </div>
+        <div class="mdl-card__supporting-text">
+          Pie Your Friends - Fling pies on your friends' faces
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      Play Store
+    </a>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 </body>
