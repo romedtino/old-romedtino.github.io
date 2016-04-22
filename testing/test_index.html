@@ -1,18 +1,25 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-red.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 </head>
 
 <style>
-  .headerSize {
-    height: 150px;
+  .profilePhoto {
+    padding: 1vw;
+    max-width: 30%;
+    width: auto;
+    height: auto;
+    margin: auto;
   }
   
   .centerStage {
-    margin: auto auto;
+    margin:0 auto;
   }
   
   .demo-card-wide.mdl-card {
@@ -22,7 +29,7 @@
   .demo-card-wide > .mdl-card__title {
     color: #fff;
     height: 176px;
-    background: url('../images/header-bg.png') center / cover;
+    background: url('../images/header-bg.jpg') center / cover;
   }
   
   .demo-card-wide > .mdl-card__menu {
@@ -30,49 +37,102 @@
   }
 </style>
 
-<body>
-  <div class="mdl-layout mdl-js-layout">
+<body onresize="readjustName()">
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-tabs
+  mdl-layout--fixed-header">
 
     <header class="mdl-layout__header">
-      <div class="mdl-layout__header-row headerSize">
-        <!-- Title -->
-        <span class="mdl-layout-title centerStage">Jerome Tolentino</span>
+      <img class="profilePhoto" src="../images/profile.png" alt="Jerome Tolentino">
+      <!-- Title -->
+      <div id="profileName" class="mdl-typography--display-3 
+        mdl-typography--text-center">
+        Jerome D. Tolentino
+      </div>
+      <br/>
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+        <a href="#fixed-tab-1" class="mdl-layout__tab is-active">About</a>
+        <a href="#fixed-tab-2" class="mdl-layout__tab">Projects</a>
+        <a href="#fixed-tab-3" class="mdl-layout__tab">Contact</a>
       </div>
     </header>
 
-    <div class="mdl-grid">
-      <!-- First card -->
-      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title">
-        </div>
-        <div class="mdl-card__supporting-text">
-          Behavioral Timer - A timer made for analysis
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Play Store
-    </a>
-        </div>
-      </div>
+    <main class="mdl-layout__content">
 
-      <!-- Second card -->
-      <div class="demo-card-wide mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title">
+      <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
+        <div class="page-content mdl-typography--body-2">
+          <br/>
+          <center>California State University Northridge
+            <br/> Bachelor of Science in Computer Engineer </center>
         </div>
-        <div class="mdl-card__supporting-text">
-          Pie Your Friends - Fling pies on your friends' faces
+      </section>
+
+      <section class="mdl-layout__tab-panel" id="fixed-tab-2">
+
+        <div class="mdl-grid">
+
+          <!--First card -->
+          <div class="centerStage mdl-cell mdl-cell--3-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+            </div>
+            <div class="mdl-card__supporting-text">
+              Behavioral Timer - A timer made for analysis.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect">
+                    Play Store
+                  </a>
+            </div>
+          </div>
+
+          <!--Second card -->
+          <div class="centerStage mdl-cell mdl-cell--3-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+            </div>
+            <div class="mdl-card__supporting-text">
+              Pie Your Friends - Fling pies on your friends' faces.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect">
+                    Play Store
+                  </a>
+            </div>
+          </div>
+
+          <!--Third card -->
+          <div class="centerStage mdl-cell mdl-cell--3-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__title">
+            </div>
+            <div class="mdl-card__supporting-text">
+              Kings Cup Cast - Kings drinking game straight to your Chromecast!
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect">
+                    Play Store
+                  </a>
+            </div>
+          </div>
+
+
         </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-      Play Store
-    </a>
+
+      </section>
+
+
+      <section class="mdl-layout__tab-panel" id="fixed-tab-3">
+        <div class="page-content">
+          Y Tu Brute???
         </div>
-      </div>
-    </div>
+      </section>
+
+    </main>
 
 
   </div>
-</body>
 
+
+</body>
 
 </html>
