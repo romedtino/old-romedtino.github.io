@@ -1,0 +1,55 @@
+  .profilePhoto {
+    padding: 1vw;
+    max-width: 20%;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+  
+  .centerStage {
+    margin: 10px auto;
+  }
+  
+  .demo-card-wide.mdl-card {
+    width: 500px;
+  }
+  
+  .demo-card-wide > .mdl-card__pieTitle {
+    color: #fff;
+    height: 256px;
+    background: url('../images/FeatGraphicPieYourFriends.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .demo-card-wide > .mdl-card__timerTitle {
+    color: #fff;
+    height: 256px;
+    background: url('../images/FeatureGraphicBehavioralTimer.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .demo-card-wide > .mdl-card__kingsTitle {
+    color: #fff;
+    height: 256px;
+    background: url('../images/FeatureGraphicKingsCup.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .demo-card-wide > .mdl-card__iiwiiTitle {
+    color: #fff;
+    height: 256px;
+    background: url('../images/FeatGraphicIIWII.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  
+  .centerStage {
+    margin: 10px auto;
+  }
