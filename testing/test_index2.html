@@ -1,16 +1,19 @@
 <html>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
 
 <head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-red.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>-->
-  <!--<script src="../javascripts/main.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+  <script src="../javascripts/main.js"></script>
 
   <link rel="stylesheet" type="text/css" href="../stylesheets/portfolio.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
 </head>
 
 <body>
@@ -23,31 +26,36 @@
     mdl-layout__header--waterfall 
     mdl-layout__header--waterfall-hide-top">
 
-      <img class="profilePhoto" src="../images/profile.png" alt="Jerome Tolentino">
-
-      <div class="mdl-typography--display-2 
-        mdl-typography--text-center">
-        <!-- Title -->
-        Jerome D. Tolentino
-      </div>
-
-      <!-- Top row, always visible -->
       <!-- Navigation -->
       <div class="mdl-layout__header-row">
-        <!-- Add spacer, to align navigation to the right -->
         <div class="mdl-layout-spacer"></div>
-        <nav class="mdl-navigation mdl-js-ripple-effect">
-          <a href="#About" class="mdl-navigation__link">About</a>
-          <a href="#Projects" class="mdl-navigation__link">Projects</a>
-          <a href="#Contact" class="mdl-navigation__link">Contact</a>
-        </nav>
+        <button title="About" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <font color="white">About</font>
+        </button>
+        <button title="Projects" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <font color="white">Projects</font>
+        </button>
+        <button title="Contact" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <font color="white">Contact</font>
+        </button>
       </div>
     </header>
 
-    <main class="mdl-layout__content">
+
+    <main id="mainportion" class="mdl-layout__content mdl-layout--fixed-header">
+      <header id="About" class="mdl-layout__header mdl-layout__header--seamed">
+
+        <img class="profilePhoto" src="../images/profile.png" alt="Jerome Tolentino">
+
+        <div class="mdl-typography--display-2 
+        mdl-typography--text-center">
+          <!-- Title -->
+          Jerome D. Tolentino
+        </div>
+      </header>
 
       <!-- Begin About -->
-      <div id="About">
+      <div>
         <span class="mdl-typography--display-3 mdl-typography--text-center">
           <center>
               About Me
@@ -129,12 +137,16 @@
           <div class="mdl-card__timerTitle">
           </div>
           <div class="mdl-card__supporting-text">
-            Behavioral Timer - A timer made for analysis.
+            Behavioral Timer - An open sourced timer made for analysis.
           </div>
           <div class="mdl-card__actions mdl-card--border">
             <a class="mdl-button mdl-button--colored 
                   mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.behavioraltimerfree">
                     Play Store
+                  </a>
+            <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect" href="https://github.com/expandedlabs/BehavioralTimer">
+                    GitHub
                   </a>
           </div>
         </div>
@@ -189,7 +201,13 @@
 
       <!-- Begin Contact -->
       <br id="Contact" />
-      <!-- TODO -->
+      <span class="mdl-typography--display-1">
+         <center>
+        <br/>Facebook / Twitter / LinkedIn / GitHub / Google+ / PlayStorePage / Email
+        <br/>
+      </span>
+      </center>
+
       <!-- End Contact -->
 
     </main>

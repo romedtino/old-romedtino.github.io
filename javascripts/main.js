@@ -1,8 +1,12 @@
-console.log('This would be the main JS file.');
+console.log('main.js loaded.');
 
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
+$(document).ready(function() {
+
+    $('button').click(function(event) {
+
+        //TODO maybe we want to make sure these are the top three buttons?
+        $(document.getElementById("mainportion")).scrollTo(document.getElementById($(this).context.title), 800);
+
+    });
+
 });
