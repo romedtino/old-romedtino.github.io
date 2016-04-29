@@ -19,31 +19,24 @@
 <body>
   <div class="mdl-layout 
   mdl-js-layout 
-  mdl-layout--fixed-header 
-  mdl-layout--fixed-tabs">
+  mdl-layout--fixed-header">
 
     <header class="mdl-layout__header
-    mdl-layout__header--waterfall 
-    mdl-layout__header--waterfall-hide-top">
+    mdl-layout__header--waterfall">
 
       <!-- Navigation -->
-      <div class="mdl-layout__header-row">
+      <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
         <div class="mdl-layout-spacer"></div>
-        <button title="About" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <font color="white">About</font>
-        </button>
-        <button title="Projects" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <font color="white">Projects</font>
-        </button>
-        <button title="Contact" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <font color="white">Contact</font>
-        </button>
+        <a title="About" href="#About" class="mdl-layout__tab is-active">About</a>
+        <a title="Projects" href="#Projects" class="mdl-layout__tab">Projects</a>
+        <a title="Contact" href="#Contact" class="mdl-layout__tab">Contact</a>
       </div>
     </header>
 
-
     <main id="mainportion" class="mdl-layout__content mdl-layout--fixed-header">
-      <header id="About" class="mdl-layout__header mdl-layout__header--seamed">
+
+      <!-- Begin About -->
+      <header id="About" class="mdl-layout__header mdl-layout__header--seamed is-active">
 
         <img class="profilePhoto" src="../images/profile.png" alt="Jerome Tolentino">
 
@@ -54,7 +47,6 @@
         </div>
       </header>
 
-      <!-- Begin About -->
       <div>
         <span class="mdl-typography--display-3 mdl-typography--text-center">
           <center>
