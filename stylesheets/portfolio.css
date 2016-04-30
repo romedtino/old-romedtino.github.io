@@ -1,14 +1,21 @@
   .profilePhoto {
+    display: block;
     padding: 1vw;
-    max-width: 20%;
+    max-width: 50%;
     width: auto;
     height: auto;
     margin: auto;
   }
   
+  .profileBackground {
+    background: url('../images/technology.jpg');
+    background-size: 100%;
+  }
+  
   .centerStage {
     margin: 10px auto;
   }
+  
   
   .demo-card-wide.mdl-card {
     width: 500px;
@@ -54,6 +61,29 @@
     margin: 10px auto;
   }
   
-  .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type  {
-  padding-right: 0;
+  .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
+    padding-right: 0;
+  }
+  
+  .viewportFullscreen {
+    height: 100vh;
+    position: relative;
+  }
+  
+  .verticalCenter {
+    top: 50%;
+    position: relative;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+.italics {
+  font-style: italic;
+}
+
+.bottomBarrel{
+  position: absolute;
+  bottom: 8%;
+  width: 100%;
 }

@@ -1,16 +1,18 @@
 <html>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+
 
 <head>
-
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-red.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
-  <script src="../javascripts/main.js"></script>
 
+
+  <script src="../javascripts/main.js"></script>
   <link rel="stylesheet" type="text/css" href="../stylesheets/portfolio.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/animations.css">
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -29,39 +31,119 @@
       <!-- Navigation -->
       <div class="mdl-layout__header-row">
         <div class="mdl-layout-spacer"></div>
-        <button title="About" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <font color="white">About</font>
+        <button title="Jerome" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <font color="white">Jerome</font>
         </button>
         <button title="Projects" class="mdl-button mdl-js-button mdl-js-ripple-effect">
           <font color="white">Projects</font>
         </button>
-        <button title="Contact" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-          <font color="white">Contact</font>
+        <button title="About" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+          <font color="white">About</font>
         </button>
       </div>
     </header>
 
 
     <main id="mainportion" class="mdl-layout__content mdl-layout--fixed-header">
-      <header id="About" class="mdl-layout__header mdl-layout__header--seamed">
 
-        <img class="profilePhoto" src="../images/profile.png" alt="Jerome Tolentino">
-
-        <div class="mdl-typography--display-2 
-        mdl-typography--text-center">
-          <!-- Title -->
-          Jerome D. Tolentino
+      <div id="Jerome" class="viewportFullscreen mdl-color--primary mdl-color-text--white">
+        <div id="pictureAndName" class="fadeinAnimation verticalCenter">
+          <img class="profilePhoto" src="../images/profile.png" alt="Jerome Tolentino">
+          <div class="mdl-typography--display-2 
+        mdl-typography--text-center ">
+            <!-- Title -->
+            Jerome D. Tolentino
+          </div>
+          <div class="italics mdl-typography--caption mdl-typography--text-center">
+            "But ... what does my butt smell like?"
+          </div>
         </div>
-      </header>
+      </div>
+
+      <!-- Begin Projects -->
+      <div id="Projects" class="fadeinAnimation mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-typography--display-3 mdl-typography--text-center">
+          <center>
+            Projects
+          </center>
+        </header>
+
+        <div class="mdl-grid">
+          <!--First card -->
+          <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__timerTitle">
+            </div>
+            <div class="mdl-card__supporting-text">
+              Behavioral Timer - An open sourced timer made for analysis.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.behavioraltimerfree">
+                    Play Store
+                  </a>
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect" href="https://github.com/expandedlabs/BehavioralTimer">
+                    GitHub
+                  </a>
+            </div>
+          </div>
+
+          <!--Second card -->
+          <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__pieTitle">
+            </div>
+            <div class="mdl-card__supporting-text">
+              Pie Your Friends - Fling pies on your friends' faces.
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.pieyourfriends.android">
+                    Play Store
+                  </a>
+            </div>
+          </div>
+
+          <!--Third card -->
+          <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__kingsTitle">
+            </div>
+            <div class="mdl-card__supporting-text">
+              Kings Cup Cast - Kings drinking game straight to your Chromecast!
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.kingscupcast">
+                    Play Store
+                  </a>
+            </div>
+          </div>
+
+          <!--Fourth card -->
+          <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+            <div class="mdl-card__iiwiiTitle">
+            </div>
+            <div class="mdl-card__supporting-text">
+              It Is What It Is - Simple app to tell people how it is
+            </div>
+            <div class="mdl-card__actions mdl-card--border">
+              <a class="mdl-button mdl-button--colored 
+                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.iiwii">
+                    Play Store
+                  </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Projects -->
 
       <!-- Begin About -->
-      <div>
-        <span class="mdl-typography--display-3 mdl-typography--text-center">
+      <div id="About" class="fadeinAnimation viewportFullscreen mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-typography--display-3 mdl-typography--text-center">
           <center>
-              About Me
+            About
           </center>
-          </span>
-        <div class="page-content mdl-typography--body-2">
+        </header>
+        <div class="page-content">
           <br/>
           <center>
             Software Engineer
@@ -69,146 +151,49 @@
             <br/> California State University Northridge
             <br/> Bachelor of Science in Computer Engineer
             <br/>
-            <br/> Languages: C++, Java, C#, MySQL, Bash, Python, HTML, CSS, Javascript
-            <br/> Tools/IDE: Perforce, Git, SVN, IntelliJ, Android Studio, Visual Studios, Netbeans, Springboot, Jenkins
-          </center>
+            <br/> C++, Java, C#, MySQL, Bash, Python, HTML, CSS, Javascript
+            <br/> Perforce, Git, SVN, IntelliJ, Android Studio, Visual Studios, Netbeans, Springboot, Jenkins
+
+            <div class="bottomBarrel">
+              <!-- Me -->
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                Facebook
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                Twitter
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                LinkedIn
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                GitHub
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                Google+
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                Email
+              </button>
+
+              <!-- Expanded Labs -->
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                ExpandedLabs PlayStore
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                ExpandedLabs GitHub
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                ExpandedLabs Google+
+              </button>
+              <button class="mdl-button mdl-js-button mdl-js-ripple-effect">
+                ExpandedLabs Email
+              </button>
+            </div>
         </div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+        </center>
+
       </div>
       <!-- End About -->
-
-
-
-      <!-- Begin Projects -->
-      <div id="Projects">
-        <span class="mdl-typography--display-3 mdl-typography--text-center">
-          <center>
-              Projects
-          </center>
-          </span>
-      </div>
-
-      <div class="mdl-grid">
-        <!--First card -->
-        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__timerTitle">
-          </div>
-          <div class="mdl-card__supporting-text">
-            Behavioral Timer - An open sourced timer made for analysis.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored 
-                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.behavioraltimerfree">
-                    Play Store
-                  </a>
-            <a class="mdl-button mdl-button--colored 
-                  mdl-js-button mdl-js-ripple-effect" href="https://github.com/expandedlabs/BehavioralTimer">
-                    GitHub
-                  </a>
-          </div>
-        </div>
-
-        <!--Second card -->
-        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__pieTitle">
-          </div>
-          <div class="mdl-card__supporting-text">
-            Pie Your Friends - Fling pies on your friends' faces.
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored 
-                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.pieyourfriends.android">
-                    Play Store
-                  </a>
-          </div>
-        </div>
-
-        <!--Third card -->
-        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__kingsTitle">
-          </div>
-          <div class="mdl-card__supporting-text">
-            Kings Cup Cast - Kings drinking game straight to your Chromecast!
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored 
-                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.kingscupcast">
-                    Play Store
-                  </a>
-          </div>
-        </div>
-
-        <!--Fourth card -->
-        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
-          <div class="mdl-card__iiwiiTitle">
-          </div>
-          <div class="mdl-card__supporting-text">
-            It Is What It Is - Simple app to tell people how it is
-          </div>
-          <div class="mdl-card__actions mdl-card--border">
-            <a class="mdl-button mdl-button--colored 
-                  mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.iiwii">
-                    Play Store
-                  </a>
-          </div>
-        </div>
-      </div>
-      <!-- End Projects -->
-
-
-      <!-- Begin Contact -->
-      <br id="Contact" />
-      <span class="mdl-typography--display-1">
-         <center>
-        <br/>Facebook / Twitter / LinkedIn / GitHub / Google+ / PlayStorePage / Email
-        <br/>
-      </span>
-      </center>
-
-      <!-- End Contact -->
 
     </main>
 
