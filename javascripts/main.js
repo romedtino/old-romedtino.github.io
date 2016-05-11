@@ -1,6 +1,9 @@
 console.log('main.js loaded.');
 
 $(document).ready(function() {
+    
+    //animate picture
+    $("#pictureAndName").addClass("fadeinAnimation");
 
     $('button').click(function(event) {
 
@@ -13,8 +16,8 @@ $(document).ready(function() {
     $('#mainportion').scroll(function() {
         
         checkElementForAnim($("#pictureAndName"));
-        checkElementForAnim($("#Projects"));
-        checkElementForAnim($("#About"));
+        //checkElementForAnim($("#Projects"));
+        //checkElementForAnim($("#About"));
         
     })
 
