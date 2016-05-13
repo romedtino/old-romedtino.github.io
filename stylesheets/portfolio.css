@@ -7,6 +7,14 @@
     margin: auto;
   }
   
+  .greyColorBackground {
+    background-color: #f3f3f3;
+  }
+  
+  .greyText {
+    color :#767777;
+  }
+  
   .profileBackground {
     background: url('../images/technology.jpg');
     background-size: 100%;
@@ -15,7 +23,6 @@
   .centerStage {
     margin: 10px auto;
   }
-  
   
   .demo-card-wide.mdl-card {
     width: 500px;
@@ -27,6 +34,7 @@
     background: url('../images/FeatGraphicPieYourFriends.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    clip:auto;
   }
   
   .demo-card-wide > .mdl-card__timerTitle {
@@ -35,6 +43,7 @@
     background: url('../images/FeatureGraphicBehavioralTimer.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    clip:auto;
   }
   
   .demo-card-wide > .mdl-card__kingsTitle {
@@ -43,7 +52,9 @@
     background: url('../images/FeatureGraphicKingsCup.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    clip:auto;
   }
+  
   
   .demo-card-wide > .mdl-card__iiwiiTitle {
     color: #fff;
@@ -51,6 +62,7 @@
     background: url('../images/FeatGraphicIIWII.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    clip:auto;
   }
   
   .demo-card-wide > .mdl-card__menu {
@@ -66,14 +78,10 @@
   }
   
   .viewportFullscreen {
-    height: 97vh;
+    height: 75vh;
     position: relative;
   }
   
-  .viewportFullProjects {
-    height: 250vh;
-    position: relative;
-  }
   
   .verticalCenter {
     top: 50%;
@@ -83,12 +91,14 @@
     transform: translateY(-50%);
   }
   
-.italics {
-  font-style: italic;
-}
-
-.bottomBarrel{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
+  .italics {
+    font-style: italic;
+    margin:auto;
+  }
+  
+  .bottomBarrel {
+    position: absolute;
+    margin:auto;
+    bottom: 0;
+    width: 100%;
+  }
