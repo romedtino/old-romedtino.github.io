@@ -78,8 +78,7 @@
   }
   
   .viewportFullscreen {
-    min-height: 80%;
-    height: 75vw;
+    height: 100%;
     position: relative;
   }
   
