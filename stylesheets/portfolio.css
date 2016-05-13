@@ -78,7 +78,8 @@
   }
   
   .viewportFullscreen {
-    height: 75vh;
+    min-height: 80%;
+    height: 75vw;
     position: relative;
   }
   
@@ -86,6 +87,7 @@
   .verticalCenter {
     top: 50%;
     position: relative;
+    margin:auto;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
