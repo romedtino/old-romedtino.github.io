@@ -24,8 +24,8 @@
     mdl-layout__header--waterfall-hide-top">
     
     <!-- Navigation -->
-    <div class="mdl-layout__header-row">
-      <div class="mdl-layout-spacer"></div>
+    <div class="mdl-layout__header-row mdl-layout--large-screen-only">
+      <!--<div class="mdl-layout-spacer"></div>-->
       <button title="Jerome" class="mdl-button mdl-js-button mdl-js-ripple-effect">
         <font color="white">Jerome</font>
       </button>
@@ -40,6 +40,15 @@
       </button>
     </div>
   </header>
+  <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+    <span class="mdl-layout__title">Menu</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" title="Jerome" href="#">Jerome</a>
+      <a class="mdl-navigation__link" title="Projects" href="#">Projects</a>
+      <a class="mdl-navigation__link" title="About" href="#">About</a>
+      <a class="mdl-navigation__link"title="Contact" href="#">Contact</a>
+    </nav>
+  </div>
 
   <main id="mainportion" class="mdl-layout__content">
 
