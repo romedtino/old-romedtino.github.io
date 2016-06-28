@@ -13,7 +13,7 @@ $(document).ready(function() {
 
     });
     
-    $('a').click(function(event) {
+    $('#smallMenu').find('.mybutton').click(function(event) {
 
         event.preventDefault();
         //TODO maybe we want to make sure these are the top three buttons?
