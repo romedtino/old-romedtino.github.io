@@ -12,7 +12,7 @@
   }
   
   .greyText {
-    color :#767777;
+    color: #767777;
   }
   
   .profileBackground {
@@ -28,44 +28,43 @@
     width: 500px;
   }
   
-  .demo-card-wide > .mdl-card__pieTitle {
+  .demo-card-wide> .mdl-card__pieTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatGraphicPieYourFriends.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    clip:auto;
+    clip: auto;
   }
   
-  .demo-card-wide > .mdl-card__timerTitle {
+  .demo-card-wide> .mdl-card__timerTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatureGraphicBehavioralTimer.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    clip:auto;
+    clip: auto;
   }
   
-  .demo-card-wide > .mdl-card__kingsTitle {
+  .demo-card-wide> .mdl-card__kingsTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatureGraphicKingsCup.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    clip:auto;
+    clip: auto;
   }
   
-  
-  .demo-card-wide > .mdl-card__iiwiiTitle {
+  .demo-card-wide> .mdl-card__iiwiiTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatGraphicIIWII.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    clip:auto;
+    clip: auto;
   }
   
-  .demo-card-wide > .mdl-card__menu {
+  .demo-card-wide> .mdl-card__menu {
     color: #fff;
   }
   
@@ -82,11 +81,10 @@
     position: relative;
   }
   
-  
   .verticalCenter {
     top: 50%;
     position: relative;
-    margin:auto;
+    margin: auto;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -94,12 +92,26 @@
   
   .italics {
     font-style: italic;
-    margin:auto;
+    margin: auto;
   }
   
   .bottomBarrel {
     position: absolute;
-    margin:auto;
+    margin: auto;
     bottom: 0;
     width: 100%;
   }
+  
+  ul {
+    list-style-type: none;
+      font-size: 18px;
+    /*padding: 0;*/
+    /*margin: 0;*/
+
+  }
+  
+  /*.mdl-tabs__tab {*/
+  /*  font-size: 15px;*/
+  /*  font-weight: 400;*/
+  /*  line-height: 52px;*/
+  /*}*/

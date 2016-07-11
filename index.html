@@ -18,24 +18,23 @@
 
 </head>
 
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+<div class="mdl-layout mdl-js-layout">
   <header class="mdl-layout__header
-    mdl-layout__header--waterfall 
-    mdl-layout__header--waterfall-hide-top">
-    
+    mdl-layout__header--waterfall">
+
     <!-- Navigation -->
     <div class="mdl-layout__header-row mdl-layout--large-screen-only">
-      <!--<div class="mdl-layout-spacer"></div>-->
+      <div class="mdl-layout-spacer"></div>
       <button title="Jerome" class="mdl-button mdl-js-button mdl-js-ripple-effect">
         <font color="white">Jerome</font>
-      </button>
-      <button title="Projects" class="mdl-button mdl-js-button mdl-js-ripple-effect">
-        <font color="white">Projects</font>
       </button>
       <button title="About" class="mdl-button mdl-js-button mdl-js-ripple-effect">
         <font color="white">About</font>
       </button>
-       <button title="Contact" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+      <button title="Projects" class="mdl-button mdl-js-button mdl-js-ripple-effect">
+        <font color="white">Projects</font>
+      </button>
+      <button title="Contact" class="mdl-button mdl-js-button mdl-js-ripple-effect">
         <font color="white">Contact</font>
       </button>
     </div>
@@ -44,8 +43,8 @@
     <span class="mdl-layout__title">Menu</span>
     <nav id="smallMenu" class="mdl-navigation">
       <a class="mdl-navigation__link mybutton" title="Jerome" href="#">Jerome</a>
-      <a class="mdl-navigation__link mybutton" title="Projects" href="#">Projects</a>
       <a class="mdl-navigation__link mybutton" title="About" href="#">About</a>
+      <a class="mdl-navigation__link mybutton" title="Projects" href="#">Projects</a>
       <a class="mdl-navigation__link mybutton" title="Contact" href="#">Contact</a>
     </nav>
   </div>
@@ -54,8 +53,8 @@
 
 
     <div id="Jerome" class="viewportFullscreen mdl-color--primary mdl-color-text--white">
-      <div  class="verticalCenter">
-        <img id="pictureAndName"  class="profilePhoto" src="images/profile.png" alt="Jerome Tolentino">
+      <div class="verticalCenter">
+        <img id="pictureAndName" class="profilePhoto" src="images/profile.png" alt="Jerome Tolentino">
         <div class="mdl-typography--display-3 
         mdl-typography--text-center ">
           <!-- Title -->
@@ -66,6 +65,72 @@
         </div>
       </div>
     </div>
+
+
+    <!-- Begin About -->
+    <div id="About" class="viewportFullscreen mdl-layout--fixed-header">
+      <header class="mdl-typography--display-3 mdl-typography--text-center greyText">
+        <center>
+          About
+        </center>
+      </header>
+      <div class="page-content mdl-typography--font-light mdl-typography--subhead">
+        <br/>
+        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+          <div class="mdl-tabs__tab-bar">
+            <a href="#basics-panel" class="mdl-tabs__tab is-active">Basics</a>
+            <a href="#programming-panel" class="mdl-tabs__tab">Programming</a>
+            <a href="#experience-panel" class="mdl-tabs__tab">Experience</a>
+          </div>
+
+          <div class="mdl-tabs__panel is-active" id="basics-panel">
+            <ul>
+              <li>Software Engineer II</li>
+              <br/>
+              <li>California State University Northridge</li>
+              <li>Bachelor of Science in Computer Engineering &emsp;&emsp; 2012</li>
+            </ul>
+          </div>
+          <div class="mdl-tabs__panel" id="programming-panel">
+            <ul>
+              <li>C++ &emsp; Java &emsp; C# &emsp;</li>
+              <li>Bash &emsp; Batch &emsp; Python</li>
+              <li>HTML &emsp; CSS &emsp; Javascript &emsp; MySQL </li>
+              <li>VHDL &emsp; Verilog</li>
+              <br/>
+              <li>Perforce &emsp; Git &emsp; SVN</li>
+              <li>IntelliJ &emsp; Android Studio &emsp; Visual Studios &emsp; Netbeans &emsp; Springboot</li>
+              <li>Jenkins &emsp; TeamForge</li>
+              <li>Node</li>
+            </ul>
+          </div>
+
+          <div class="mdl-tabs__panel" id="experience-panel">
+            <ul>
+              <li>
+                Software Engineer II - Private U.S. Defense Company &emsp;&emsp; March 2013 - Present
+                <li/>&emsp;&emsp;Developed auto routing software along with jeopardy assessments for the route generation.
+                <li/>&emsp;&emsp;Engaged in all aspects of the project from software design to execution and testing.
+                <li/>&emsp;&emsp;Heavily involved in automating builds and managing CI for the project.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--<br/>-->
+        <!--<br/> California State University Northridge-->
+        <!--<br/> Bachelor of Science in Computer Engineering-->
+        <!--<br/>-->
+        <!--<br/> C++, Java, C#, Bash, Batch, MySQL, Python, HTML, CSS, Javascript, VHDL, Verilog-->
+        <!--<br/> Perforce, Git, SVN, IntelliJ, Android Studio, Visual Studios, Netbeans, Springboot, Jenkins, Node-->
+        <!--<br/> Experienced in Office Suite, Photoshop, Inkscape-->
+        <!--<br/>-->
+        <!--<br/> Software Engineer II - U.S. Defense Industry &emsp; March 2013 - Present-->
+        <!--<br/>-->
+        <!--<br/> Technology excited. Android enthusiast. Avid gamer.-->
+
+      </div>
+    </div>
+    <!-- End About -->
 
     <!-- Begin Projects -->
     <div id="Projects" class="mdl-layout--fixed-header greyColorBackground greyText">
@@ -143,31 +208,6 @@
     </div>
     <!-- End Projects -->
 
-    <!-- Begin About -->
-    <div id="About" class="viewportFullscreen mdl-layout--fixed-header">
-      <header class="mdl-typography--display-3 mdl-typography--text-center greyText">
-        <center>
-          About
-        </center>
-      </header>
-      <div class="page-content mdl-typography--font-light mdl-typography--subhead">
-        <br/>
-        <center>
-          Software Engineer
-          <br/>
-          <br/> California State University Northridge
-          <br/> Bachelor of Science in Computer Engineer
-          <br/>
-          <br/> C++, Java, C#, Bash, Batch, MySQL, Python, HTML, CSS, Javascript, VHDL, Verilog
-          <br/> Perforce, Git, SVN, IntelliJ, Android Studio, Visual Studios, Netbeans, Springboot, Jenkins, Node
-          <br/> Experienced in Office Suite, Photoshop, Inkscape
-          <br/>
-          <br/> Technology excited. Android enthusiast. Avid gamer.
-
-        </center>
-      </div>
-    </div>
-    <!-- End About -->
     <br/>
     <br/>
     <br/>
