@@ -1,9 +1,9 @@
+/* global $ */
+
 console.log('main.js loaded.');
 
 $(document).ready(function() {
     
-    //animate picture
-    $("#pictureAndName").addClass("fadeinAnimation");
 
     $('button').click(function(event) {
 
@@ -23,28 +23,6 @@ $(document).ready(function() {
 
     });
 
-    $('#mainportion').scroll(function() {
-        
-        checkElementForAnim($("#pictureAndName"));
-        //checkElementForAnim($("#Projects"));
-        //checkElementForAnim($("#About"));
-        
-    })
-
-    function checkElementForAnim(elem) {
-        var scrolled = isScrolledIntoView($(elem));
-
-        if (scrolled) {
-            if (!$(elem).hasClass("fadeinAnimation")) {
-
-                $(elem).addClass("fadeinAnimation");
-            }
-        }
-        else {
-            $(elem).removeClass("fadeinAnimation");
-
-        }
-    }
 
     function isScrolledIntoView(elem) {
         var $elem = $(elem);

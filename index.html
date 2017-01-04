@@ -1,5 +1,8 @@
 <html>
 
+<!-- Oh hi. Why are you looking at my code? It's not great I know... I'm learning.
+  TODO: HTML/CSS/JS .. should separate.
+  -->
 
 <head>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
@@ -68,76 +71,90 @@
 
 
     <!-- Begin About -->
-    <div id="About" class="viewportFullscreen mdl-layout--fixed-header">
-      <header class="mdl-typography--display-3 mdl-typography--text-center greyText">
+    <div id="About" class="mdl-layout--fixed-header">
+      <header class="mdl-typography--display-3-color-contrast mdl-typography--text-center mdl-typography--font-light">
         <center>
           About
         </center>
       </header>
-      <div class="page-content mdl-typography--font-light mdl-typography--subhead">
-        <br/>
-        <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
-          <center>
-            <div class="mdl-tabs__tab-bar">
-              <a href="#basics-panel" class="mdl-tabs__tab is-active">Basics</a>
-              <a href="#programming-panel" class="mdl-tabs__tab">Programming</a>
-              <a href="#experience-panel" class="mdl-tabs__tab">Experience</a>
-            </div>
+      <div class="page-content mdl-grid mdl-typography--font-light mdl-typography--subhead">
 
-            <div class="mdl-tabs__panel is-active" id="basics-panel">
-              <ul>
-                <li>Software Engineer II</li>
-                <br/>
-                <li>California State University Northridge</li>
-                <li>Bachelor of Science in Computer Engineering</li>
-                <li>2012</li>
-                <br/>
-                <li>Technology excited. Android enthusiast. Avid gamer.</li>
-              </ul>
-            </div>
-            <div class="mdl-tabs__panel" id="programming-panel">
-              <ul>
-                <li>C++&emsp;Java&emsp;C#&emsp;Bash</li>
-                <li>Batch&emsp;Python&emsp;HTML&emsp;CSS</li>
-                <li>Javascript&emsp;MySQL&emsp;VHDL&emsp;Verilog</li>
-                <br/>
-                <li>Perforce &emsp; Git &emsp; SVN &emsp; Jenkins &emsp; TeamForge &emsp; Node</li>
-                <li>IntelliJ &emsp; Android Studio &emsp; Visual Studios &emsp; Netbeans &emsp; Springboot</li>
-                <li>Office Suite &emsp; Photoshop &emsp; Inkscape</li>
-              </ul>
-            </div>
-
-            <div class="mdl-tabs__panel" id="experience-panel">
-              <ul>
-                <li>
-                  Software Engineer II - Private U.S. Defense Company</li>
-                <li> March 2013 - Present</li>
-                <li> <br/>Developed auto path routing software along with route assessment validation.
-                  <br/>Engaged in all aspects of the project from software design to execution and testing.
-                  <br/>Heavily involved in automating builds and managing CI for the project.</li>
-              </ul>
-            </div>
-          </center>
+        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__bgInfoTitle">
+            <h2 class="mdl-card__title-text blackOpaqueTextBackground">Background</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Software Engineer/Software Developer
+            <br/> California State University Northridge
+            <br/> Bachelor of Science in Computer Engineering - 2012
+            <br/> Technology geek. Android enthusiast. Avid gamer.
+          </div>
         </div>
-        <!--<br/>-->
-        <!--<br/> California State University Northridge-->
-        <!--<br/> Bachelor of Science in Computer Engineering-->
-        <!--<br/>-->
-        <!--<br/> C++, Java, C#, Bash, Batch, MySQL, Python, HTML, CSS, Javascript, VHDL, Verilog-->
-        <!--<br/> Perforce, Git, SVN, IntelliJ, Android Studio, Visual Studios, Netbeans, Springboot, Jenkins, Node-->
-        <!--<br/> Experienced in Office Suite, Photoshop, Inkscape-->
-        <!--<br/>-->
-        <!--<br/> Software Engineer II - U.S. Defense Industry &emsp; March 2013 - Present-->
-        <!--<br/>-->
-        <!--<br/> Technology excited. Android enthusiast. Avid gamer.-->
+
+        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__progTitle">
+            <h2 class="mdl-card__title-text blackOpaqueTextBackground">Programming</h2>
+          </div>
+            <table class="mdl-card__supporting-text">
+                <tr>
+                  <td>C++</td>
+                  <td>Java</td>
+                  <td>C#</td>
+                  <td>Bash</td>
+                  <td>Python</td>
+                  <td>HTML</td>
+                  <td>CSS</td>
+                  <td>Batch</td>
+                  <td>Javascript</td>
+                  <td>MySQL</td>
+                  <td>VHDL</td>
+                  <td>Verilog</td>
+                </tr>
+                <tr/><td/>
+                <tr/><td/>
+                <tr>
+                  <td>Perforce</td>
+                  <td>Git</td>
+                  <td>SVN</td>
+                  <td>Jenkins</td>
+                  <td>TeamForge</td>
+                  <td>Node</td>
+                  <td>IntelliJ</td>
+                  <td>Android Studio</td>
+                  <td>Visual Studios</td>
+                  <td>Netbeans</td>
+                  <td>Springboot</td>
+                  <td>Office Suite</td>
+                  <td>Photoshop</td>
+                  <td>Inkscape</td>
+                </tr>
+            </table>
+            <!--C++&emsp;Java&emsp;C#&emsp;Bash Batch&emsp;Python&emsp;HTML&emsp;CSS Javascript&emsp;MySQL&emsp;VHDL&emsp;Verilog-->
+            <!--<br/><br/>Perforce &emsp; Git &emsp; SVN &emsp; Jenkins &emsp; TeamForge &emsp; Node &emsp; IntelliJ &emsp; Android Studio &emsp; Visual Studios &emsp; Netbeans &emsp; Springboot Office Suite &emsp; Photoshop &emsp; Inkscape-->
+        </div>
+
+        <div class="centerStage mdl-cell mdl-cell--4-col demo-card-wide mdl-card mdl-shadow--2dp">
+          <div class="mdl-card__experienceTitle">
+            <h2 class="mdl-card__title-text blackOpaqueTextBackground">Experience</h2>
+          </div>
+          <div class="mdl-card__supporting-text">
+            Software Engineer II
+            <br/> Private U.S. Software Company
+            <br/> March 2013 - Present
+            <br/><br/> &#8226; Developed auto path routing software along with route assessment validation.
+            <br/> &#8226; Engaged in all aspects of the project from software design to execution and testing.
+            <br/> &#8226; Heavily involved in automating builds and managing CI for the project.
+
+          </div>
+        </div>
 
       </div>
     </div>
     <!-- End About -->
 
     <!-- Begin Projects -->
-    <div id="Projects" class="mdl-layout--fixed-header greyColorBackground greyText">
-      <header class="mdl-typography--display-3 mdl-typography--text-center">
+    <div id="Projects" class=" mdl-layout--fixed-header greyColorBackground">
+      <header class="mdl-typography--display-3-color-contrast mdl-typography--font-light mdl-typography--text-center">
         <center>
           Projects
         </center>
@@ -154,7 +171,7 @@
           <div class="mdl-card__actions mdl-card--border">
             <a target="_blank" class="mdl-button mdl-button--colored 
                   mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.behavioraltimerfree">
-                    Play Store
+                    Google Play
                   </a>
             <a target="_blank" class="mdl-button mdl-button--colored 
                   mdl-js-button mdl-js-ripple-effect" href="https://github.com/expandedlabs/BehavioralTimer">
@@ -173,7 +190,7 @@
           <div class="mdl-card__actions mdl-card--border">
             <a target="_blank" class="mdl-button mdl-button--colored 
                   mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.pieyourfriends.android">
-                    Play Store
+                    Google Play
                   </a>
           </div>
         </div>
@@ -188,7 +205,7 @@
           <div class="mdl-card__actions mdl-card--border">
             <a target="_blank" class="mdl-button mdl-button--colored 
                   mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.kingscupcast">
-                    Play Store
+                    Google Play
                   </a>
           </div>
         </div>
@@ -203,19 +220,13 @@
           <div class="mdl-card__actions mdl-card--border">
             <a target="_blank" class="mdl-button mdl-button--colored 
                   mdl-js-button mdl-js-ripple-effect" href="https://play.google.com/store/apps/details?id=com.expandedlabs.iiwii">
-                    Play Store
+                    Google Play
                   </a>
           </div>
         </div>
       </div>
     </div>
     <!-- End Projects -->
-
-    <br/>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
 
     <div id="Contact">
       <footer class="mdl-mini-footer">
@@ -231,7 +242,7 @@
         <div class="mdl-mini-footer__drop-down-section">
           <div class="mdl-logo">Expanded Labs</div>
           <ul class="mdl-mini-footer__link-list">
-            <li><a href="https://play.google.com/store/apps/dev?id=6818886935826799879">Play Store</a></li>
+            <li><a href="https://play.google.com/store/apps/dev?id=6818886935826799879">Google Play</a></li>
             <li><a href="https://plus.google.com/107894780110199074951">Google+</a></li>
             <li><a href="https://github.com/expandedlabs">GitHub</a></li>
             <li><a href="mailto:ExpandedLabs@gmail.com">Email</a></li>

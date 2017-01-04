@@ -28,7 +28,7 @@
     width: 500px;
   }
   
-  .demo-card-wide> .mdl-card__pieTitle {
+  .demo-card-wide>.mdl-card__pieTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatGraphicPieYourFriends.png');
@@ -37,7 +37,7 @@
     clip: auto;
   }
   
-  .demo-card-wide> .mdl-card__timerTitle {
+  .demo-card-wide>.mdl-card__timerTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatureGraphicBehavioralTimer.png');
@@ -46,7 +46,7 @@
     clip: auto;
   }
   
-  .demo-card-wide> .mdl-card__kingsTitle {
+  .demo-card-wide>.mdl-card__kingsTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatureGraphicKingsCup.png');
@@ -55,7 +55,7 @@
     clip: auto;
   }
   
-  .demo-card-wide> .mdl-card__iiwiiTitle {
+  .demo-card-wide>.mdl-card__iiwiiTitle {
     color: #fff;
     height: 256px;
     background: url('../images/FeatGraphicIIWII.png');
@@ -64,12 +64,37 @@
     clip: auto;
   }
   
-  .demo-card-wide> .mdl-card__menu {
+  .demo-card-wide>.mdl-card__bgInfoTitle {
     color: #fff;
+    height: 176px;
+    background: url('https://placeimg.com/512/176/nature') center / cover;
+    bottom: 0;
   }
   
-  .centerStage {
-    margin: 10px auto;
+  .demo-card-wide>.mdl-card__progTitle {
+    color: #fff;
+    height: 176px;
+    background: url('https://placeimg.com/512/176/tech') center / cover;
+  }
+  
+  .demo-card-wide>.mdl-card__experienceTitle {
+    color: #fff;
+    height: 176px;
+    background: url('https://placeimg.com/512/176/nature/sepia') center / cover;
+  }
+  
+  .blackOpaqueTextBackground {
+    height: 24px;
+    width: 500px;
+    padding: 16px;
+    top: 120px;
+    position: absolute;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .demo-card-wide>.mdl-card__menu {
+    color: #fff;
   }
   
   .demo-layout-waterfall .mdl-layout__header-row .mdl-navigation__link:last-of-type {
@@ -104,9 +129,25 @@
   
   ul {
     list-style-type: none;
-      font-size: 18px;
+    font-size: 14px;
     padding: 1px;
     margin: 1px;
-
   }
   
+  .mdl-card__supporting-text {
+    padding-left: 1.5em;
+    text-indent: -1.5em;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width:100%;
+    display:block;
+}
+
+td, th {
+
+    text-align: left;
+    display:inline-block;
+    margin-left: 36px;
+}
