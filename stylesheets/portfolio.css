@@ -152,3 +152,21 @@ td, th {
     display:inline-block;
     margin-left: 36px;
 }
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.nooverflow {
+  
+  overflow: hidden;
+}
+
+.scrollable {
+  
+  overflow:auto;
+}
+
+#mainportion {
+  width: 102%;
+}
