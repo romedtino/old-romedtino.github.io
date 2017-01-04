@@ -135,9 +135,9 @@
   }
   
   .indentTitle{
-    margin-left:1em;
-    padding-left: 2em;
-    text-indent: -2em;
+    margin: 1em;
+    padding-left: 1em;
+    text-indent: -1em;
   }
   
   table {
@@ -155,18 +155,4 @@ td, th {
 
 ::-webkit-scrollbar { 
     display: none; 
-}
-
-.nooverflow {
-  
-  overflow: hidden;
-}
-
-.scrollable {
-  
-  overflow:auto;
-}
-
-#mainportion {
-  width: 102%;
 }

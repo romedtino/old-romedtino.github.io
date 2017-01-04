@@ -1,5 +1,5 @@
 /* global $ */
-
+/* global jQuery */
 console.log('main.js loaded.');
 
 $(document).ready(function() {
@@ -36,5 +36,5 @@ $(document).ready(function() {
 
         return (((elemTop >= docViewTop) && (elemTop <= docViewBottom)) || ((elemBottom >= docViewTop) && (elemBottom <= docViewBottom)))
     }
-
+    
 });
