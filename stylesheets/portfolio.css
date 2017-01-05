@@ -99,6 +99,7 @@
   .viewportFullscreen {
     min-height: 100%;
     position: relative;
+     border: 1px solid transparent;
   }
   
   .verticalCenter {
@@ -132,6 +133,10 @@
   .indentFirstLine {
     margin-left: 1.5em;
     text-indent: -1.5em;
+  }
+  
+  .sectionMargin {
+    margin: 1.5% auto;
   }
   
   table {
