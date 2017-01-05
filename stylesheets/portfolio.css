@@ -135,7 +135,7 @@
   }
   
   .indentTitle{
-    margin: 1em;
+    margin: 1px;
     padding-left: 1em;
     text-indent: -1em;
   }
@@ -150,7 +150,7 @@ td, th {
 
     text-align: left;
     display:inline-block;
-    margin-left: 36px;
+    margin-left: 35px;
 }
 
 ::-webkit-scrollbar { 
