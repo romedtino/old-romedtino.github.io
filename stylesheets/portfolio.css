@@ -59,6 +59,15 @@
     clip: auto;
   }
   
+  .demo-card-wide>.mdl-card__alienTitle {
+    color: #fff;
+    height: 256px;
+    background: url('../images/FeatureAlientractor.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clip: auto;
+  }
+  
   .demo-card-wide>.mdl-card__bgInfoTitle {
     color: #fff;
     height: 176px;
